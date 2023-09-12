@@ -32,20 +32,20 @@
     			<c:otherwise>
     				<h3>A0</h3>
     			</c:otherwise>	
-    			</c:choose>
-    			<c:when test="${point >=80}">
-    				<h3>B</h3>
-    			</c:when>
-    			<c:when test="${point >= 70}">
-    				<h3>C</h3>
-    			</c:when>
-    			<c:when test="${point >= 60}">
-    				<h3>D</h3>
-    			</c:when>
-    			<c:otherwise>
-    				<h3>F</h3>
-    			</c:otherwise>
+    		</c:choose>
     	</c:when>
+    	<c:when test="${point >=80}">
+    			<h3>B</h3>
+    	</c:when>
+    	<c:when test="${point >= 70}">
+    			<h3>C</h3>
+    	</c:when>
+    	<c:when test="${point >= 60}">
+    			<h3>D</h3>
+    	</c:when>
+    	<c:otherwise>
+    			<h3>F</h3>
+    	</c:otherwise>
     </c:choose>
     	
     	
